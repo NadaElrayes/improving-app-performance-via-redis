@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a reponse to A Cloud Guru Challenge. 
+This project is a reponse to A Cloud Guru Challenge. [Improve app performance using Amazon ElastiCache](https://acloudguru.com/blog/engineering/cloudguruchallenge-improve-application-performance-using-amazon-elasticache)
 
 The purpose of the project is to improve the performance of a dummy python application by directing the requests to ElastiCache Redis cluster instead of directly checking the RDS PostgreSQL DB. If a cache miss happens, it queries the RDS DB and loads the data to Redis. A cache hit will happen on the next time.   
 
